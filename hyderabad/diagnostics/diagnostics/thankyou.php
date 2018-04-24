@@ -1,77 +1,10 @@
-<?php
-require_once('../config_urls.php');
- //API 2 rabbit webservice call
-
-  ///
-$utm_source = $_POST['utm_source'];
-$utm_medium = $_POST['utm_medium'];
-$utm_campaign = $_POST['utm_campaign'];
-$utm_content = $_POST['utm_content'];
-$service = $_POST['service'];
-
-$user_ip_city = $_POST['usercity']; 
-
-$utm_term = $_POST['utm_term'];
-$utm_tg = $_POST['utm_tg'];
-$utm_location = $_POST['utm_location'];
-$utm_bidding = $_POST['utm_bidding'];
-$ipaddress = $_POST['ipaddress'];
-$device = $_POST['device'];
-$utm_landing_page = $_POST['utm_landing_page']; 
-$cl_id = $_POST['cl_id'];
-$lan_id = $_POST['lan_id'];
-$location ='';
-
-
-$landing = $_POST['landing'];
-$name = $_POST["name"];
-$phone = $_POST["phone"];
-$email = '';
-$address = '';
-
-
-$date = date('Y-m-d h:i:s');
-   
-   
-   $service_url = 'http://rabbitdigital.co.in/dashboard_api/api/leads';
-       $curl = curl_init($service_url);
-       $curl_post_data = array(           
-        'client_id' => $cl_id,
-        'landing_id' => $lan_id,
-        'service'=> $service,
-        'utm_source' => $utm_source,
-        'utm_location' => $utm_location,
-        'utm_campaign'=> $utm_campaign,
-        'utm_content' => $utm_content,
-        'utm_term' => $utm_term,
-        'utm_bidding'=>$utm_bidding,        
-        'utm_landing_page' => $utm_landing_page,
-        'utm_tg' => $utm_tg,
-        'device'=>$device,
-        'ipaddress' => $ipaddress,
-        'user_ip_city' => $user_ip_city,
-        'addeddate'=> $date,
-        'user_name' => $name,
-        'user_phone'=> $phone,
-        'user_email' => $email,
-        'user_city' =>$location
-            );
-       curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-       curl_setopt($curl, CURLOPT_POST, true);
-       curl_setopt($curl, CURLOPT_POSTFIELDS, $curl_post_data);
-       $curl_response = curl_exec($curl);
-       curl_close($curl);
-    // echo $curl_response;exit;
-       // $decoded = json_decode($curl_response);
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="assets/images/favicon.ico">
     <title>CallHealth</title>
  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
  <link href="assets/css/style.css" rel="stylesheet">
@@ -238,6 +171,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		  </div>
 		  
 		  
+		  
 <div id="content1">
 	 <div class="container" id="pack">
     <div class="row" id="section2">
@@ -249,12 +183,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="row">
           <div class="col-md-3 col-xs-6">
             <div class="package-container">
-              <div class="packagehead">MASTER HEALTH CHECK</div>
+              <div class="packagehead">CallHealth Master Health Check</div>
               <div class="packprice">
 			  <table>
 			  <tr>
-			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>3000</span></td>
-			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">1000</span></td>
+			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>2999</span></td>
+			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">999</span></td>
 			  </tr>
 			  </table>
 			  </div>
@@ -263,12 +197,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
 		  <div class="col-md-3 col-xs-6">
             <div class="package-container">
-               <div class="packagehead">BASIC HEALTH CHECK</div>
+               <div class="packagehead">CallHealth Primary Health Check</div>
               <div class="packprice">
 			  <table>
 			  <tr>
-			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>700</span></td>
-			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">450</span></td>
+			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>699</span></td>
+			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">399</span></td>
 			  </tr>
 			  </table>
 			  </div>
@@ -276,12 +210,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
 		  <div class="col-md-3 col-xs-6">
             <div class="package-container">
-               <div class="packagehead">DIABETES BASIC CHECK</div>
+               <div class="packagehead">Diabetes <br> Check Advanced</div>
               <div class="packprice">
 			  <table>
 			  <tr>
-			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>700</span></td>
-			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">450</span></td>
+			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>1082</span></td>
+			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">649</span></td>
 			  </tr>
 			  </table>
 			  </div>
@@ -289,12 +223,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
 		  <div class="col-md-3 col-xs-6">
             <div class="package-container">
-               <div class="packagehead">CT WHOLE ABDOMEN</div>
+               <div class="packagehead">Health Check for working professionals</div>
               <div class="packprice">
 			  <table>
 			  <tr>
-			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>5500</span></td>
-			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">3575</span></td>
+			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>3199</span></td>
+			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">1249</span></td>
 			  </tr>
 			  </table>
 			  </div>
@@ -362,7 +296,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="simg"><img class="doim" src="assets/images/Icon10.png"/></div>
               </div>
               <div class="service-content">
-                <p>Hospitalisation Assistance @ upto 50% off</p>
+                <p>Hospitalisation Assistance @ upto 40% off</p>
               </div>
             </div>
           </div>

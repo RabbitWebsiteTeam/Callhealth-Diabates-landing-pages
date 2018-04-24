@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="assets/images/favicon.ico">
     <title>CallHealth</title>
  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
  <link href="assets/css/style.css" rel="stylesheet">
@@ -65,7 +66,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="col-md-6 col-xs-8 colpad">
            <div class="banncont">
 		     <div class="head">The convenience of having tests done at home</div>
-		     <div class="cont">at a discount of up to 70%</div>
+		     <div class="cont">at a discount of up to 50%</div>
 		   </div>
           </div>
           <div class="col-md-6 col-xs-4 colpad mnop">
@@ -169,6 +170,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
 		  </div>
 		  
+		  
 <div id="content1">
 	 <div class="container" id="pack">
     <div class="row" id="section2">
@@ -180,12 +182,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="row">
           <div class="col-md-3 col-xs-6">
             <div class="package-container">
-              <div class="packagehead">DIABETES CHECK BASIC</div>
+              <div class="packagehead">CallHealth Master Health Check</div>
               <div class="packprice">
 			  <table>
 			  <tr>
-			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>700</span></td>
-			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">450</span></td>
+			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>2999</span></td>
+			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">999</span></td>
 			  </tr>
 			  </table>
 			  </div>
@@ -194,12 +196,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
 		  <div class="col-md-3 col-xs-6">
             <div class="package-container">
-               <div class="packagehead">DIABETES CHECK BASIC</div>
+               <div class="packagehead">CallHealth Primary Health Check</div>
               <div class="packprice">
 			  <table>
 			  <tr>
-			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>2000</span></td>
-			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">700</span></td>
+			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>699</span></td>
+			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">399</span></td>
 			  </tr>
 			  </table>
 			  </div>
@@ -207,12 +209,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
 		  <div class="col-md-3 col-xs-6">
             <div class="package-container">
-               <div class="packagehead">DIABETES CHECK BASIC</div>
+               <div class="packagehead">Diabetes <br> Check Advanced</div>
               <div class="packprice">
 			  <table>
 			  <tr>
-			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>1300</span></td>
-			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">1000</span></td>
+			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>1082</span></td>
+			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">649</span></td>
 			  </tr>
 			  </table>
 			  </div>
@@ -220,12 +222,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
 		  <div class="col-md-3 col-xs-6">
             <div class="package-container">
-               <div class="packagehead">DIABETES CHECK BASIC</div>
+               <div class="packagehead">Health Check for working professionals</div>
               <div class="packprice">
 			  <table>
 			  <tr>
-			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>1000</span></td>
-			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">535</span></td>
+			  <td class="prtd1"><span class="cross"><span class="WebRupee wb">Rs.</span>3199</span></td>
+			  <td class="prtd2"><span class="WebRupee wb">Rs.</span><span style="font-family:Gotham-Bold">1249</span></td>
 			  </tr>
 			  </table>
 			  </div>
@@ -236,6 +238,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 		  
 </div>
+
 	 <div class="container" id="other">
     <div class="row" id="section2">
 	
@@ -263,7 +266,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <div class="simg"><img class="doim" src="assets/images/Icon7.png"/></div>
               </div>
               <div class="service-content">
-                <p>Medicines @ FLAT 20% off</p>
+                <p>Medicines @ FLAT 30% off</p>
               </div>
             </div>
           </div>
@@ -273,7 +276,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="simg"><img class="doim" src="assets/images/Icon8.png"/></div>
               </div>
               <div class="service-content">
-                <p>Physiotherapy @ <span class="WebRupee wb">Rs.</span>400 onwards</p>
+                <p>Physiotherapy @ <span class="WebRupee wb">Rs.</span>600 onwards</p>
               </div>
             </div>
           </div>
@@ -283,7 +286,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <div class="simg"><img class="doim" src="assets/images/Icon9.png"/></div>
               </div>
               <div class="service-content">
-                <p>Nursing care @ <span class="WebRupee wb">Rs.</span>600 onwards</p>
+                <p>Nursing care @ <span class="WebRupee wb">Rs.</span>300 onwards</p>
               </div>
             </div>
           </div>
